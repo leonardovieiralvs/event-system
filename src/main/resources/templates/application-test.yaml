@@ -1,6 +1,6 @@
 spring:
   application:
-    name: dscommerce
+    name: event-system
 
   datasource:
     url: jdbc:h2:mem:testdb
