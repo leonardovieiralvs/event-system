@@ -15,6 +15,9 @@ public class Bloco {
     private Instant inicio;
     private Instant fim;
 
+    @ManyToOne
+    private Atividade atividade;
+
     public Instant getInicio() {
         return inicio;
     }
