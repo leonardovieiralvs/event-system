@@ -17,7 +17,7 @@ public class Atividade {
     private String descricao;
     private Double preco;
 
-    @ManyToOne
+    @ManyToOne()
     private Categoria categoria;
 
     @OneToMany(mappedBy = "atividade")
